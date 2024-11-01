@@ -1,0 +1,68 @@
+.header-container {
+    background: #fff;
+    box-shadow: -1px 4px 20px 1px #f1f1f185;
+}
+header.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+i.fa-solid.fa-bell {
+    width: 25px;
+    /* height: 35px; */
+}
+.header-left {
+    justify-content: space-between;
+    align-items: center;
+}
+ul.navbar-item {
+    display: flex;
+}
+.dropdown {
+    position: relative;
+}
+.user-profile-dropdown {
+    margin-left: 20px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link.user {
+    padding: 6px 0;
+    font-size: 25px;
+    color: #9999;
+    position: relative;
+    margin-right: 10px;
+}
+p.count {
+    position: absolute;
+    top: 0;
+    font-size: 10px;
+    color: var(--white-color);
+    background: var(--main-grident);
+    width: 13px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right: 10px;
+}
+.logo {
+    text-align: center;
+    width: 240px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+    background: var(--main-grident);
+    color: var(--white-color);
+}
+a.sidebarcollapse {
+    padding-left: 14px;
+    color: var(--second-color);
+    font-size: 20px;
+}
+img.icon {
+    width: 50px;
+}
