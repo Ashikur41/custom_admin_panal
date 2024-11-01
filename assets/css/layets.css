@@ -66,3 +66,43 @@ a.sidebarcollapse {
 img.icon {
     width: 50px;
 }
+.dropdown-menu {
+    z-index: var(--z-fiexd);
+    max-width: 12rem;
+    right: -21px;
+    left: auto;
+    min-width: 14rem;
+    padding: 0;
+    border-radius: 5px;
+}
+.dp-main-menu {
+    display: inline-grid;
+    width: 100%;
+    box-shadow: 0px 4px 20px 0px #ddd;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.dp-main-menu a {
+    font-size: 13px;
+    color: var(--second-color);
+    width: 100%;
+    white-space: initial;
+    line-height: 13px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    padding: 10px;
+}
+.message-item {
+    display: flex;
+}
+img.user-note {
+    width: 35px;
+    height: 25px;
+    margin-right: 8px;
+}
+/* .note-info-desmis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} */
